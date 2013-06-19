@@ -13,7 +13,7 @@ The Ohai plugin enables mcollective to use [OpsCode Ohai](http://wiki.opscode.co
 Sample configuration:
 
 ```
-factsource = facter
+factsource = opscodeohai
 fact_cache_time = 3000
 ```
 
