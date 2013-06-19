@@ -22,7 +22,7 @@ fact_cache_time = 3000
 You should now be able to use all your ohai facts in discovery and fact reporting
 
 ```
-% mco rpc rpcutil get_fact fact=osfamily
+% mco rpc rpcutil get_fact fact=platform_family
 Discovering hosts using the mc method for 2 second(s) .... 2
 
  * [ ============================================================> ] 2 / 2
