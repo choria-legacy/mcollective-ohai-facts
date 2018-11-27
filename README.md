@@ -1,14 +1,20 @@
-#MCollective Ohai Fact Source
+# MCollective Ohai Fact Source
 
-##Overview
+## Deprecation Notice
+
+This repository holds legacy code related to The Marionette Collective project.  That project has been deprecated by Puppet Inc and the code donated to the Choria Project.
+
+Please review the [Choria Project Website](https://choria.io) and specifically the [MCollective Deprecation Notice](https://choria.io/mcollective) for further information and details about the future of the MCollective project.
+
+## Overview
 
 The Ohai plugin enables mcollective to use [OpsCode Ohai](http://wiki.opscode.com/display/chef/Ohai) as a source for facts about your system.
 
-##Installation
+## Installation
 
  * Follow the [basic plugin install guide](http://projects.puppetlabs.com/projects/mcollective-plugins/wiki/InstalingPlugins)
 
-##Configuration
+## Configuration
 
 Sample configuration:
 
@@ -17,7 +23,7 @@ factsource = opscodeohai
 fact_cache_time = 3000
 ```
 
-###Usage
+### Usage
 
 You should now be able to use all your ohai facts in discovery and fact reporting
 
